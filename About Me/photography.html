@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+	<title>Photography</title>
+</head>
+<body>
+<div id="slideshow">
+    <img src="http://i.imgur.com/kXfZY5jl.jpg?1" style="position:absolute;" class="active" />
+    <img src="http://i.imgur.com/3UaiJTUl.jpg" style="position:absolute;" />
+    <img src="http://i.imgur.com/gQywqFgl.jpg" style="position:absolute;" />
+</div>
+<footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    function slideSwitch() {
+        var $active = $('div#slideshow IMG.active');
+        var $next = $active.next();    
+
+        $next.addClass('active');
+
+        $active.removeClass('active');
+    }
+
+    $(function() {
+        setInterval( "slideSwitch()", 5000 );
+    });
+</script>
+</footer>
+</body>
+</html>

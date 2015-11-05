@@ -1,0 +1,82 @@
+header {
+	text-align: center;
+	font-family: courier;
+	font-size: 40px;
+	color: white;
+	background: url(http://i.imgur.com/kXfZY5j.jpg?1);
+	background-size: cover;
+}
+
+body {
+	font-family: garamond;
+}
+
+h1 {
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+}
+img {
+	border: 7px solid white;
+	border-radius: 40px;
+	margin-top: 50px;
+}
+header ul {
+	text-align: center;
+	font-size: 18px;
+	font-family: courier;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.75);
+}
+header li {
+	display: inline;
+	padding: 0px 0px 0px 20px;
+}
+a {
+	color: white;
+}
+p {
+	padding: 20px;
+}
+
+.Twitter {
+	text-align: center;
+}
+
+.title div {
+	float: left;
+}
+
+.title .date {
+	float: right;
+}
+
+.sectioncontent {
+	padding-left: 10px;
+}
+
+.title {
+	font-weight: bold;
+	padding: 15px 0px 0px 0px;
+}
+
+.degree {
+	font-style: italic;
+	padding-bottom: 10px;
+}
+
+.ga {
+	margin: 0px 0px 10px 0px;
+}
+
+.resume {
+	max-width: 700px;
+	margin: 0 auto !important;
+	float: none !important;
+	font-size: 17px;
+}
+
+<style type="text/css">
+    .active{
+        z-index:99;
+    }
+</style>
