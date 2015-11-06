@@ -6,7 +6,13 @@ header {
 	background: url(http://i.imgur.com/kXfZY5j.jpg?1);
 	background-size: cover;
 }
-
+.eleanorheader h1 {
+	text-align: center;
+	font-family: courier;
+	font-size: 80px;
+	color: white;
+	font-weight: bold;
+}
 body {
 	font-family: garamond;
 }
